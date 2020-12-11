@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#board {
+  position: absolute;
+  width: 900;
+  height: 600;
+  background: "#62247B";
+  position: "fixed";
+  top: "50%";
+  left: "50%";
+  z-index: "999";
+  transform: "translate(-50%, -50%)";
+}
+#line {
+  width: 0;
+  height: 600;
+  border-left: "2px dashed #C6A62F";
+  position: "absolute";
+  top: 0;
+  left: "50%";
+}
+
+#stick {
+  width: 12;
+  height: 85;
+  position: "absolute";
+  background: "#C6A62F";
+}
+#stick1 {
+  left: 0;
+  top: 150;
+}
+
+#ball {
+  width: 15;
+  height: 15;
+  position: "absolute";
+  top: 0;
+  left: 350;
+  border-radius: 50;
+  background-color: "#C6A62F";
+}
+
+.score span {
+}
+
+.left {
+}
+
+.right {
+}
+
+button {
+}
+
+#winner {
+}
+
+#winner.hide {
+}
+
+@-webkit-keyframes slide {
+  100% {
+    top: 20px;
+  }
+}
+
+@keyframes slide {
+  100% {
+    top: 20px;
+  }
+}
